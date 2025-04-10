@@ -73,6 +73,10 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
     overflow: hidden;
 }
 
+#navbar a p { /* Select all links in the navigation bar */
+    /* Reserved for later */
+}
+
 #navbar {
     background-color: lightblue;
 }
