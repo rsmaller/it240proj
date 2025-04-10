@@ -68,6 +68,11 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
     text-overflow: clip;
 }
 
+/* General navbar styling */
 #navbar p, .clippable { /* If the text overflows in the navbar elements, do not try to show the overflowed text to preserve the shape of the button. Do the same for the clippable class. */
     overflow: hidden;
+}
+
+#navbar {
+    background-color: lightblue;
 }
