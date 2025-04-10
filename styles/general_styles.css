@@ -13,7 +13,7 @@ html {
 }
 
 /* When flexed boxes are resized, their content will be cut off. I found these properties at https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-overflow. */
-div div div, #navbar p { 
+div div div, #navbar p { /* TODO: Change this to use a class that hides overflow so it affects ONLY the elements it should for a scrollbar. */
     overflow: hidden;
     text-overflow: ellipsis;
 }
