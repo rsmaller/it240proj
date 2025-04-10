@@ -1,0 +1,89 @@
+/*
+    Personal Website - Mission (What I Stand For) Page Stylesheet
+    Filename:   mission_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Header Element */
+header {
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    margin: 0.2em;
+    background-color: azure;
+}
+
+/* Organizational Containers */
+#outer-div {
+    display: flex;
+}
+
+#left-main-div{
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    font-size: 0.7em;
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2em;
+}
+
+div#left-top-div div{
+    flex: 1;
+    border: 0;
+}
+
+div#left-main-div div, div#right-main-div div {
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    height: 97%;
+    display: flex;
+    background-color: azure;
+}
+
+#left-top-div {
+    border: 0;
+    height: 100%;
+}
+
+#right-main-div {
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    font-size: 0.7em;
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2em;
+}
+
+div {
+    padding: 0.2em;
+    height: 100%;
+}
+
+/* Individual Bordered Containers */
+#ethical-bg {
+    height: 100%;
+}
+
+/* Navigation Menu */
+#navbar {
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    height: 97%;
+}
+
+#navbar p {
+    border: 0.15em solid darkblue;
+    min-height: 20px;
+    height: 7vh;
+    margin: 0.2em;
+    font-size: 16px;
+    line-height: 7vh; /* centers text vertically */
+    background-color: azure;
+}

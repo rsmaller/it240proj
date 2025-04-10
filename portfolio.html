@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            Personal Website - Portfolio Page
+            Filename:   portfolio.html
+
+            Author:     Ryan Smaller
+            Date:       4/13/25
+        -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width height=device-height">
+        <script src="scripts/modernizr.custom.62074.js"></script>
+        <link href="styles/general_styles.css" rel="stylesheet">
+        <link href="styles/portfolio_styles.css" rel="stylesheet">
+        <link href="styles/links_styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bitter" rel="stylesheet">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <p class="hidden" id="#start-content">Beginning of Content</p>
+        <header>
+            <h1>Portfolio</h1>
+        </header>
+        <div id="outer-div">
+            <div class="vertical-div">
+                <div class="portfolio-unit" id="subnettergui">
+                    <p class="portfolio-name-header">
+                        <a href="https://isocpp.org/" class="link force-no-decoration" target="_blank">
+                            <img class="inlined-image-container" src="resources/images/cpp-logo.png" width="20" height="23" alt="C Plus Plus Icon">
+                        </a> Graphical Subnetter &#40;SubnetterGui&#41;
+                    </p>
+                    <div class="portfolio-image-container" id="subnettergui-image-container"></div> <!-- All portfolio images are 587x320, the max resolution they should appear in 1080p fullscreen. -->
+                    <p>A graphical subnetting calculator and studying tool for IT students who want to learn about subnetting, classful addressing, or IPv6.</p>
+                    <p class="portfolio-link"><a target="_blank" href="https://github.com/rsmaller/subnettergui" class="link">Access SubnetterGui.</a></p>
+                </div>
+                <div class="portfolio-unit" id="hashlet">
+                    <p class="portfolio-name-header">
+                        <a href="https://www.python.org/about/" class="link force-no-decoration" target="_blank">
+                            <img class="inlined-image-container" src="resources/images/python-logo.png" width="20" height="20" alt="Python Icon">
+                        </a> Text and File Hashing Tool &#40;Hashlet&#41;
+                    </p>
+                    <div class="portfolio-image-container" id="hashlet-image-container"></div>
+                    <p>A CLI script for generating pseudo-hashes or pseudo-checksums for demonstration purposes.</p>
+                    <p class="portfolio-link""><a target="_blank" href="resources/downloadables/hashlet.py" class="link" download>Access Hashlet.</a></p> <!-- Download link attribute cited from www.w3schools.com/howto/howto_html_download_link.asp -->
+                </div>
+            </div>
+            <div class="vertical-div">
+                <div class="portfolio-unit" id="subnetter">
+                    <p class="portfolio-name-header">
+                        <a href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html" class="link force-no-decoration" target="_blank">
+                        <img class="inlined-image-container" src="resources/images/c-logo.png" width="20" height="23" alt="C Icon">
+                        </a> CLI Subnetter &#40;Subnetter&#41;
+                    </p>
+                    <div class="portfolio-image-container" id="subnetter-image-container"></div>
+                    <p>A CLI-based subnet calculator written in C.</p>
+                    <p class="portfolio-link"><a target="_blank" href="https://github.com/rsmaller/subnetter" class="link">Access Subnetter.</a></p>
+                </div>
+                <div class="portfolio-unit" id="cryptik">
+                    <p  class="portfolio-name-header">
+                        <a href="https://www.python.org/about/" class="link force-no-decoration" target="_blank">
+                            <img class="inlined-image-container" src="resources/images/python-logo.png" width="20" height="20" alt="Python Icon">
+                        </a> Vigen&#232;re Ciphering Tool &#40;Cryptik&#41;
+                    </p>
+                    <div class="portfolio-image-container" id="cryptik-image-container"></div>
+                    <p>A CLI script for encoding and decoding Vigen&#232;re-ciphered text with a key.</p>
+                    <p class="portfolio-link"><a target="_blank" href="resources/downloadables/cryptik.py" class="link" download>Access Cryptik.</a></p>
+                </div>
+            </div>
+            <div class="vertical-div">
+                <div class="portfolio-unit" id="subnetterplusplus">
+                    <p class="portfolio-name-header">
+                        <a href="https://isocpp.org/" class="link force-no-decoration" target="_blank">
+                            <img class="inlined-image-container" src="resources/images/cpp-logo.png" width="20" height="23" alt="C Plus Plus Icon">
+                        </a> CLI Subnetter &#40;Subnetter++&#41;
+                    </p>
+                    <div class="portfolio-image-container" id="subnetterplusplus-image-container"></div>
+                    <p>A more robust version of the C CLI-based subnet calculator, re-written in C++.</p>
+                    <p class="portfolio-link"><a target="_blank" href="https://github.com/rsmaller/subnetterplusplus" class="link">Access Subnetter++.</a></p>
+                </div>
+                <p class="hidden"><a href="#start-content">Skip Navigation and Go Back to Start</a></p>
+                <nav id="navbar">
+                    <a href="index.html" target="_self"><p>Back to Cover Page</p></a>
+                    <a href="resume.html" target="_self"><p>Resume</p></a>
+                    <a href="mission.html" target="_self"><p>What I Stand For</p></a>
+                    <a href="contact.html" target="_self"><p>Contact Me</p></a>
+                </nav>
+            </div>
+        </div>
+    </body>
+</html>

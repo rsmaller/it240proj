@@ -1,0 +1,127 @@
+/*
+    Personal Website - Contact Page Stylesheet
+    Filename:   contact_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Primary Containers */
+#outer-div { /* A flex container for everything but the header. This ensures the header will not be flexed in abnormal fashion. */
+    display: flex;
+    flex: 1;
+    height: 91vh;
+    margin: 0.2vh;
+    flex-direction: row;
+}
+
+.text-block { /* For the verbal communication and messaging text blocks on-screen. */
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    padding-left: 0.2em; /* padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
+    padding-right: 0.2em;
+    padding-top: auto;
+    padding-bottom: auto;
+    width: 48vw;
+    background-color: azure;
+    max-height: 44vh; /* These heights are the default for information blocks when the telephone and messaging divs are not assigned heights from their ids. */
+    height: 44vh;
+}
+
+#telephone {
+    max-height: 30vh;
+    height: 30vh;
+}
+
+#messaging {
+    max-height: 58vh;
+    height: 58vh;
+}
+
+#other-accounts { /* The outside container for the accounts table. */
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    width: 49.4vw;
+    height: 50vh;
+    background-color: azure;
+}
+
+/* Table Selectors */
+#other-accounts-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: separate;
+    border-spacing: 0.3vh;
+    border: 0;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(218, 239, 248);
+}
+
+#accounts-table-column {
+    background-color: lightcyan;
+}
+
+#contacts-table-column {
+    background-color: azure;
+}
+
+td, th {
+    border: 0.05em solid black;
+    padding-left: 0.2em;
+    min-height: 30px;
+    height: 20%; /* This should be 1 divided by the number of rows used in the table. */
+}
+
+/* Header */
+header {
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    margin: 0.2vh;
+    background-color: azure;
+}
+
+/* Navigation Menu */
+#misc-nav-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar {
+    width: 27vw;
+    height: 38vh;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+}
+
+#navbar p {
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    height: 22.2%;
+    max-width: 98%;
+    text-align: center;
+    line-height: 8vh; /* centers text vertically */
+    background-color: azure;
+}
+
+/* Availability Sect */
+#availability-container {
+    width: 21.6vw;
+    height: 38vh;
+    text-align: left;
+    padding-left: 0.2em; /* padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
+    padding-right: 0.2em;
+    padding-top: auto;
+    padding-bottom: auto;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    flex-direction: column;
+    background-color: azure;
+}
+
+#availability-list li {
+    line-height: 1.7em;
+}

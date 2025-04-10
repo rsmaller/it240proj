@@ -1,0 +1,116 @@
+/*
+    Personal Website - Portfolio Page Stylesheet
+    Filename:   portfolio_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Header Element */
+header {
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    margin: 0.2em;
+    background-color: azure;
+}
+
+/* Generic Div Bordering and Margins */
+div div, nav {
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+}
+
+div div div {
+    width: 100%;
+}
+
+/* Organizational Containers */
+#outer-div {
+    display: flex;
+    width: 100%;
+}
+
+.vertical-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Individual Portfolio Elements */
+.portfolio-unit {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 31.4vw;
+    padding: 0.2em;
+    background-color: rgb(212, 229, 255);
+}
+
+.portfolio-unit p.portfolio-link, .portfolio-unit p.portfolio-name-header{ /* vertically center links and header text for each portfolio entry */
+    line-height: 2em;
+    padding-top: 0;
+    padding-bottom: 0.2em;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.portfolio-unit p {
+    border: 0.2em solid darkblue;
+    margin: 0.2em;
+    padding: 0.2em;
+    height: 10%;
+    min-height: 2em; /* ensures when window is resized that borders do not overlap the text */
+    width: 30.7vw;
+    text-align: center;
+    line-height: 1em;
+    background-color: azure;
+    font-size: 14px;
+}
+
+.portfolio-image-container {
+    height: 100%;
+    width: 30.7vw;
+    background-color: azure;
+}
+
+/* Portfolio Content */
+#subnettergui-image-container { /* These selectors set the background image of the portfolio image containers so the images cut off instead of scale when the viewport is resized. */
+    background-image: url("../resources/images/subnettergui.png");
+}
+
+#subnetter-image-container {
+    background-image: url("../resources/images/subnetter.png");
+}
+
+#subnetterplusplus-image-container {
+    background-image: url("../resources/images/subnetterplusplus.png");
+}
+
+#cryptik-image-container {
+    background-image: url("../resources/images/cryptik.png");
+}
+
+#hashlet-image-container {
+    background-image: url("../resources/images/hashlet.png");
+}
+
+/* Navigation Menu */
+#navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 31.4vw;
+    padding: 0.2em;
+}
+
+#navbar a {
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    height: 9.8vh;
+    min-height: 30px; /* ensures when window is resized that borders do not overlap the text */
+    width: 30.8vw;
+    text-align: center;
+    line-height: 7vh; /* centers text vertically */
+    background-color: azure;
+}

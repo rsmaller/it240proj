@@ -1,0 +1,99 @@
+/*
+    Personal Website - Cover Page Stylesheet
+    Filename:   main_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Header and Footer Elements */
+header, footer {
+    font-size: 0.7em;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    margin: 0.2vh;
+    height: 6vh;
+    min-height: 30px;
+    background-color: azure;
+}
+
+header h1, footer h1 {
+    line-height: 3vh;
+}
+
+/* Organizational Containers */
+#body-div {
+    display: flex;
+    flex: 1;
+    height: 84vh;
+    margin: 0.2vh;
+}
+
+#greater-portrait-photo {
+    flex: inherit; /* ensure the div with portrait photo, about me, and navigation are all flexing to their maximum possible size to fill up the screen. */
+    margin: 0.2vh;
+}
+
+#about-nav {
+    display: flex;
+    margin: 0.2vh;
+}
+
+/* Individual Bordered Containers */
+#misc-images {
+    background-color: azure;
+    width: 32%;
+    height: 98.6%;height: 98.6%;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+}
+
+#portrait-photo {
+    height: 49.5%;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    padding: 0;
+    background: url("/resources/images/portrait-background.jpg");
+    background-repeat: repeat;
+    background-color: azure;
+}
+
+#credentials {
+    width: 32%;
+    height: 98.6%;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    background-color: azure;
+}
+
+#about-me {
+    width: 16%;
+    height: 40vh;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    flex: 1;
+    background-color: azure;
+}
+
+/* Navigation Menu */
+#navbar {
+    width: 15vw;
+    height: 40vh;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    flex: 1;
+}
+
+#navbar p {
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    height: 31%;
+    min-height: 30px;
+    max-width: 98%;
+    text-align: center;
+    line-height: 11vh; /* centers text vertically */
+    background-color: azure;
+}

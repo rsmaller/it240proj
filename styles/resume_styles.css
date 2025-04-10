@@ -1,0 +1,72 @@
+/*
+    Personal Website - Resume Page Stylesheet
+    Filename:   resume_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Organizational Containers */
+#outer-div {
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+    margin: 0.2vh;
+    
+}
+
+#outer-div div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 0.3em solid darkblue;
+    margin: 0.2vh;
+    height: 96vh;
+    background-color: azure;
+}
+
+#left-div {
+    width: 20%;
+    height: 96vh;
+}
+
+#right-div {
+    width: 20%;
+}
+
+/* Individual Bordered Containers */
+#resume-file {
+    width:60%;
+}
+
+#references{
+    max-height: 33vh;
+}
+
+#comments {
+    max-height: 70vh;
+}
+
+iframe {
+    width: auto;
+    height: 100%;
+}
+
+/* Navigation Menu */
+#navbar {
+    width: 19vw;
+    max-height: 29vh;
+    min-height: 29vh;
+    text-align: center;
+    border: 0.2em solid darkblue;
+    margin: 0.2vh;
+    flex: 1;
+}
+
+#navbar p {
+    border: 0.3em solid darkblue;
+    min-height: 20px;
+    height: 6vh;
+    margin: 0.2em;
+    line-height: 5vh; /* centers text vertically */
+    background-color: azure;
+}

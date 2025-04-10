@@ -1,0 +1,63 @@
+/*
+    Personal Website - Generic Stylesheet for Element Resets and Custom Selectors
+    Filename:   general_styles.css
+
+    Author:     Ryan Smaller
+    Date:       4/13/25
+*/
+/* Generic HTML Styling */
+html {
+    font-family: Bitter, sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+/* When flexed boxes are resized, their content will be cut off. I found these properties at https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-overflow. */
+div div div, #navbar p { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Generic Body Styling */
+body {
+    background: url("../resources/images/main-bg.jpg");
+    background-size: 23vh;
+    background-color: skyblue;
+    background-repeat: round;
+}
+
+/* Custom Class Selectors */
+.hidden {
+    font-size: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    width: 0;
+    min-width: 0;
+    max-width: 0;
+    height: 0;
+    min-height: 0;
+    max-height: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.force-no-decoration { /* for manually specifying no underlines or other decorations on an element */
+    text-decoration: none;
+}
+
+br.force-wrap { /* Create a line break that does not go way down */
+    display: block;
+}
+
+.inlined-image-container { /* for lining up an icon next to text */
+    position: relative;
+    top: 5px;
+}
