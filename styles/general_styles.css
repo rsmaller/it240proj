@@ -14,7 +14,7 @@ html {
 
 /* Generic Body Styling */
 body {
-    background: url("../resources/images/main-bg.jpg");
+    background: url("../resources/images/main/main-bg.jpg");
     background-size: 23vh;
     background-color: skyblue;
     background-repeat: round;

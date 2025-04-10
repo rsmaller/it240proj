@@ -76,23 +76,23 @@ div div div {
 
 /* Portfolio Content */
 #subnettergui-image-container { /* These selectors set the background image of the portfolio image containers so the images cut off instead of scale when the viewport is resized. */
-    background-image: url("../resources/images/subnettergui.png");
+    background-image: url("../resources/images/portfolios/subnettergui.png");
 }
 
 #subnetter-image-container {
-    background-image: url("../resources/images/subnetter.png");
+    background-image: url("../resources/images/portfolios/subnetter.png");
 }
 
 #subnetterplusplus-image-container {
-    background-image: url("../resources/images/subnetterplusplus.png");
+    background-image: url("../resources/images/portfolios/subnetterplusplus.png");
 }
 
 #cryptik-image-container {
-    background-image: url("../resources/images/cryptik.png");
+    background-image: url("../resources/images/portfolios/cryptik.png");
 }
 
 #hashlet-image-container {
-    background-image: url("../resources/images/hashlet.png");
+    background-image: url("../resources/images/portfolios/hashlet.png");
 }
 
 /* Navigation Menu */
