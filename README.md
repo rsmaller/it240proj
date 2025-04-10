@@ -1,3 +1,7 @@
+# Citations
+
+This section contains any citations, primarily for images, that are not included as in-line comments in HTML or CSS code.
+
 "main-bg.jpg":
 	https://u7.uidownload.com/vector/108/227/vector-blue-seamless-polygon-pattern-background-vector-eps-ai.jpg
 
@@ -39,5 +43,3 @@
 
 "instagram-icon.png":
 	https://static.cdninstagram.com/rsrc.php/v4/yR/r/lam-fZmwmvn.png
-
-Side Note: portfolio images need to be 587 x 320 pixels max
