@@ -43,3 +43,6 @@ This section contains any citations, primarily for images, that are not included
 
 "instagram-icon.png":
 	https://static.cdninstagram.com/rsrc.php/v4/yR/r/lam-fZmwmvn.png
+
+"html5-icon.png":
+	https://fontawesome.com/icons/html5?f=classic&s=brands
