@@ -19,56 +19,76 @@ header {
     display: flex;
 }
 
-#left-main-div{
-    font-size: 0.7em;
-    text-align: center;
+#left-main-div{ /* Style the left side outer container. */
     border: 0.3em solid darkblue;
-    font-size: 0.7em;
     width: 90%;
-    height: 90vh;
+    height: 89vh;
     display: flex;
     flex-direction: column;
     margin: 0.2em;
 }
 
-div#left-top-div div{
+div#left-top-div div { /* Flex the ethical background and photo/video container next to each other. */
     flex: 1;
     border: 0;
 }
 
 div#left-main-div div, div#right-main-div div {
     border: 0.2em solid darkblue;
-    margin: 0.2em;
-    height: 97%;
+    margin: 0.1em;
+    height: 96.3%;
     display: flex;
     background-color: azure;
 }
 
-#left-top-div {
-    border: 0;
-    height: 100%;
+div#left-main-div div div { /* Ensure paragraph elements are displayed in blocking form, not in flex. */
+    display: block;
 }
 
-#right-main-div {
-    font-size: 0.7em;
-    text-align: center;
-    border: 0.3em solid darkblue;
-    font-size: 0.7em;
+#right-main-div { /* Styling for the large right side container. */
+    border: 0.2em solid darkblue;
     width: 50%;
-    height: 90vh;
+    height: 89vh;
     display: flex;
     flex-direction: column;
     margin: 0.2em;
 }
 
-div {
+/* Generic Styling */
+div { 
     padding: 0.2em;
     height: 100%;
+}
+
+/* Ordered List Styling */
+ol {
+    list-style-type: decimal;
+}
+
+ol li {
+    font-size: 14px;
 }
 
 /* Individual Bordered Containers */
 #ethical-bg {
     height: 100%;
+}
+
+/* div div#portrait { Portrait selector. For later use. } */
+
+div div#portrait iframe {
+    /* height: 100%; */
+    width: 100%;
+    max-height: 90%;
+
+}
+
+div div div#beliefs { /* Ensure beliefs div displays p elements in block style. */
+    display: block;
+}
+
+div div div#acm-code, div div div#sysadmin-book { /* Ensure references div always displays p elements in block style. */
+    display: block;
 }
 
 /* Navigation Menu */
@@ -79,11 +99,12 @@ div {
 }
 
 #navbar p {
-    border: 0.15em solid darkblue;
+    text-align: center;
+    border: 0.2em solid darkblue;
     min-height: 20px;
     height: 7vh;
     margin: 0.2em;
     font-size: 16px;
-    line-height: 7vh; /* centers text vertically */
+    line-height: 7vh; /* Centers text vertically. */
     background-color: azure;
 }
