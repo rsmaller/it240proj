@@ -20,6 +20,14 @@ body {
     background-repeat: round;
 }
 
+/* Global Styling for Specific Elements */
+h4 {
+    text-align: center;
+    line-height: 0.1vh;
+    margin: 1em;
+    text-wrap-mode: nowrap;
+}
+
 /* Custom Class Selectors */
 .hidden {
     font-size: 0;
@@ -62,17 +70,11 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
 }
 
 /* Overflow Handling */
-/* When flexed boxes are resized, their content will be cut off. I found these properties at https://www.w3schools.com/cssref/tryit.php?filename=trycss3_text-overflow. */
-.scrollable {
-    overflow: hidden;
-    text-overflow: clip;
-}
-
-/* General navbar styling */
 #navbar p, .clippable { /* If the text overflows in the navbar elements, do not try to show the overflowed text to preserve the shape of the button. Do the same for the clippable class. */
     overflow: hidden;
 }
 
+/* General navbar styling */
 #navbar {
     background-color: lightblue;
 }

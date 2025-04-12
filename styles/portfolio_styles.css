@@ -107,7 +107,7 @@ div div div {
 #navbar a {
     border: 0.2em solid darkblue;
     margin: 0.2vh;
-    height: 9.8vh;
+    height: 9.7vh;
     min-height: 30px; /* ensures when window is resized that borders do not overlap the text */
     width: 30.8vw;
     text-align: center;

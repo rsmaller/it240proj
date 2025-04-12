@@ -53,11 +53,12 @@ div#certifications {
 
 div#certifications {
     height: 50%;
+    text-align: center;
 }
 
-div#other-links p{
-    line-height: 0;
-}
+/* div#other-links p{ */
+    /* line-height: 0; */
+/* } */
 
 /* Resume Sheet Styles */
 embed {
@@ -86,6 +87,6 @@ td, th {
     min-height: 20px;
     height: 6vh;
     margin: 0.2em;
-    line-height: 5vh; /* centers text vertically */
+    line-height: 6vh; /* centers text vertically */
     background-color: azure;
 }
