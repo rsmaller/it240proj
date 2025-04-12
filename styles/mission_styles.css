@@ -88,10 +88,18 @@ div div #portrait {
 
 div div div#beliefs { /* Ensure beliefs div displays p elements in block style. */
     display: block;
+    padding-top: 0;
+    padding: 0.2em;
 }
+
+div#beliefs p, div#acm-code p, div#sysadmin-book p, div#ethical-bg p { /* Ensure beliefs div displays p elements in block style. */
+    margin-top: 0.3em;
+}
+
 
 div div div#acm-code, div div div#sysadmin-book { /* Ensure references div always displays p elements in block style. */
     display: block;
+    height: 79%;
 }
 
 /* Navigation Menu */

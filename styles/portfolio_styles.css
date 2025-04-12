@@ -45,6 +45,7 @@ div div div {
     width: 31.4vw;
     padding: 0.2em;
     background-color: rgb(212, 229, 255);
+    overflow: hidden;
 }
 
 .portfolio-unit p.portfolio-link, .portfolio-unit p.portfolio-name-header{ /* vertically center links and header text for each portfolio entry */
