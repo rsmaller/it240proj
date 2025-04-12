@@ -58,10 +58,10 @@ div div div {
 
 .portfolio-unit p {
     border: 0.2em solid darkblue;
-    margin: 0.2em;
+    margin: 0.05em;
     padding: 0.2em;
-    height: 10%;
-    min-height: 2em; /* ensures when window is resized that borders do not overlap the text */
+    min-height: 2em;
+    max-height: 2em;
     width: 30.7vw;
     text-align: center;
     line-height: 1em;
@@ -70,8 +70,8 @@ div div div {
 }
 
 .portfolio-image-container {
-    height: 100%;
-    width: 30.7vw;
+    height: 70%;
+    width: 30.5vw;
     background-color: azure;
 }
 

@@ -47,8 +47,15 @@ div#certifications {
     max-height: 33vh;
 }
 
-#comments {
+div#comments {
     max-height: 70vh;
+    padding-top: 0;
+    padding: 0.2em;
+}
+
+div#comments p {
+    padding: 0;
+    margin-top: 0;
 }
 
 div#certifications {
@@ -56,9 +63,11 @@ div#certifications {
     text-align: center;
 }
 
-/* div#other-links p{ */
-    /* line-height: 0; */
-/* } */
+div div div#beliefs { /* Ensure beliefs div displays p elements in block style and without whitespace at the top. */
+    display: block;
+    padding-top: 0;
+    padding: 0.2em;
+}
 
 /* Resume Sheet Styles */
 embed {

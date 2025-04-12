@@ -78,6 +78,10 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
     overflow: hidden;
 }
 
+.scrollable { /* Add scrollbar to container for overflowed content */
+    overflow: scroll;
+}
+
 /* General navbar styling */
 #navbar {
     background-color: lightblue;
