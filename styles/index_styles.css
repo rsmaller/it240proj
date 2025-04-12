@@ -75,6 +75,8 @@ footer {
     margin: 0.2vh;
     text-align: center;
     background-color: azure;
+    background: url("/resources/images/main/portrait-background2.jpg");
+    background-repeat: repeat;
 }
 
 #collage img { /* Ensure images in the collage dynamically resize with viewport. */

@@ -5,7 +5,7 @@ This section contains any citations, primarily for images, that are not included
 "main-bg.jpg":
 	https://u7.uidownload.com/vector/108/227/vector-blue-seamless-polygon-pattern-background-vector-eps-ai.jpg
 
-"portrait-background.jpg":
+"portrait-background-orig.jpg" (The other portrait backgrounds are edited from this one):
 	https://seamless-backgrounds.blogspot.com/2012/01/open-space-seamless-background-texture.html
 
 "github-icon.png":
