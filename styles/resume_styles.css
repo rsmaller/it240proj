@@ -41,10 +41,8 @@ div div#resume-file {
 
 div#certifications {
     display: inline;
-}
-
-#references {
-    max-height: 33vh;
+    height: 50%;
+    text-align: center;
 }
 
 div#comments {
@@ -56,17 +54,6 @@ div#comments {
 div#comments p {
     padding: 0;
     margin-top: 0;
-}
-
-div#certifications {
-    height: 50%;
-    text-align: center;
-}
-
-div div div#beliefs { /* Ensure beliefs div displays p elements in block style and without whitespace at the top. */
-    display: block;
-    padding-top: 0;
-    padding: 0.2em;
 }
 
 /* Resume Sheet Styles */

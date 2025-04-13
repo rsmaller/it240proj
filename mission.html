@@ -24,8 +24,8 @@
             <h1>What I Stand For</h1>
         </header>
         <div id="outer-div">
-            <div id="left-main-div">
-                <div id="left-top-div">
+            <div id="left-main-div"> <!-- Contains the video embed, ethical background, and what I stand for sections. -->
+                <div id="left-top-div"> <!-- Contains the top two elements: ethical background and the video embed. -->
                     <div id="ethical-bg" class="clippable">
                         <p> My ethical background is very diverse. There are a lot of different factors which affect my global perspective and work ethic.
                         </p>
@@ -43,8 +43,8 @@
                             out by causing severe damage to IT infrastructure. In short, it is imperative to me that I show I am trustworthy.
                         </p>
                     </div>
-                    <div id="portrait" class="clippable">
-                        <iframe class="clippable" width="588" height="331" src="https://www.youtube.com/embed/nu9xL0-F7wA?si=Y7bYw3C0Bvzr9S2O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div id="video-embed" class="clippable">
+                        <iframe class="clippable" width="588" height="331" src="https://www.youtube.com/embed/nu9xL0-F7wA?si=Y7bYw3C0Bvzr9S2O" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <p>Bad things happen when ethical guidelines are not followed. In the above video, StackOverflow did unethical things with their users' data.</p>
                     </div>
                 </div>
@@ -76,33 +76,47 @@
                     </p>
                 </div>
             </div>
-            <div id="right-main-div">
+            <div id="right-main-div"> <!-- Contains the ACM Code, System Administration book, and navbar sections. -->
                 <div id="acm-code" class="clippable">
                     <p> One page which I use as reference for any ethical questions or concerns I might have is the <a>Association of Computing and Machinery Code of Ethics</a>.
                         Below is a list of their general guidelines which I find important:    
                     </p>
                     <ol>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.1-contribute-to-society-and-to-human-well-being,-acknowledging-that-all-people-are-stakeholders-in-computing." target="_blank">
-                            <li>Work to contribute to society and acknowledge all humans are affected by computing.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.2-avoid-harm." target="_blank">
-                            <li>Do not cause harm.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.3-be-honest-and-trustworthy." target="_blank">
-                            <li>Be honest and trustworthy.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.4-be-fair-and-take-action-not-to-discriminate." target="_blank">
-                            <li>Take care to be fair and not discriminate.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.5-respect-the-work-required-to-produce-new-ideas,-inventions,-creative-works,-and-computing-artifacts." target="_blank">
-                            <li>Respect creativity and ideas that can help others; do not keep them hidden.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.6-respect-privacy." target="_blank">
-                            <li>Respect privacy.</li>
-                        </a>
-                        <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.7-honor-confidentiality." target="_blank">
-                            <li>Honor confidentiality.</li>
-                        </a>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.1-contribute-to-society-and-to-human-well-being,-acknowledging-that-all-people-are-stakeholders-in-computing." target="_blank">
+                                Work to contribute to society and acknowledge all humans are affected by computing.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.2-avoid-harm." target="_blank">
+                                Do not cause harm.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.3-be-honest-and-trustworthy." target="_blank">
+                                Be honest and trustworthy.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.4-be-fair-and-take-action-not-to-discriminate." target="_blank">
+                                Take care to be fair and not discriminate.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.5-respect-the-work-required-to-produce-new-ideas,-inventions,-creative-works,-and-computing-artifacts." target="_blank">
+                                Respect creativity and ideas that can help others; do not keep them hidden.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.6-respect-privacy." target="_blank">
+                                Respect privacy.
+                            </a>
+                        </li>
+                        <li>
+                            <a class="link force-no-decoration" href="https://www.acm.org/code-of-ethics#h-1.7-honor-confidentiality." target="_blank">
+                                Honor confidentiality.
+                            </a>
+                        </li>
                     </ol>
                 </div>
                 <div id="sysadmin-book" class="clippable">
@@ -116,7 +130,7 @@
                         sections detailing how to be an effective, helpful, and ethical IT professional, and I would strongly recommend the book to anyone looking for more 
                         information on the practice of IT and even more so for system administration.</p>
                 </div>
-                <p class="hidden"><a href="#start-content">Skip Navigation and Go Back to Start</a></p>
+                <p class="hidden"><a href="#start-content">Skip Navigation and Go Back to Start</a></p> <!-- There is nothing after the navigation bar here, so go back to the start. -->
                 <nav id="navbar" class="clippable">
                     <a href="index.html" target="_self"><p>Back to Cover Page</p></a>
                     <a href="portfolio.html" target="_self"><p>Portfolio</p></a>

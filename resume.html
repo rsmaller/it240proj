@@ -21,7 +21,7 @@
     <body>
         <p class="hidden" id="#start-content">Beginning of Content</p>
         <div id="outer-div">
-            <div id="left-div">
+            <div id="left-div"> <!-- This container has the links for further reading and certifications sections, or everything to the left of my resume, in it. -->
                 <div id="other-links" class="clippable">
                     <h4>Links for Futher Reading</h4>
                     <p>Professional Experience</p>
@@ -47,15 +47,15 @@
                 </div>
                 <div id="certifications" class="clippable">
                     <h4>Certifications</h4>
-                    <a href="https://www.comptia.org/certifications/a" class="link" target="_blank"><img src="resources/images/certifications/aplus-icon.svg" width="100" height="100"></a>
-                    <a href="https://meta.extremenetworks.com/e_certifications/extreme-networks-sales-specialist/" class="link" target="_blank"><img src="resources/images/certifications/ess-icon.png"></a>    
-                    <a href="https://w3.testout.com/pro-certifications/pc-pro" class="link" target="_blank"><img src="resources/images/certifications/testout-icon.png"></a>
+                    <a href="https://www.comptia.org/certifications/a" class="link" target="_blank"><img src="resources/images/certifications/aplus-icon.svg" width="100" height="100" alt="A+ Certification"></a>
+                    <a href="https://meta.extremenetworks.com/e_certifications/extreme-networks-sales-specialist/" class="link" target="_blank"><img src="resources/images/certifications/ess-icon.png" alt="Extreme Networks Sales Specialist: Cloud Computing Certification"></a>    
+                    <a href="https://w3.testout.com/pro-certifications/pc-pro" class="link" target="_blank"><img src="resources/images/certifications/testout-icon.png" alt="TestOut PC Pro Certification"></a>
                 </div>
             </div>
-            <div id="resume-file">
+            <div id="resume-file"> <!-- A PDF of my resume is embedded into this div container and takes up the entire div's space. -->
                 <embed src="resources/downloadables/rsmaller-resume.pdf"> <!-- Embed element cited from https://stackoverflow.com/questions/17784037/how-to-display-pdf-file-in-html -->
             </div>
-            <div id="right-div">
+            <div id="right-div"> <!-- This container has my comments section and the navbar, or everything to the right of my resume, in it.-->
                 <div id="comments" class="clippable">
                     <p> I am fortunate to have to many different experiences in high school and college under my belt.</p>
                     <p> In high school, I learned computer hardware, Cisco IOS networking, computer repair, some Linux configurations, and so much more.</p>
@@ -116,7 +116,7 @@
                         </tbody>
                     </table>
                 </div>
-                <p class="hidden"><a href="#start-content">Skip Navigation and Go Back to Start</a></p>
+                <p class="hidden"><a href="#start-content">Skip Navigation and Go Back to Start</a></p> <!-- There is nothing after the navbar here. -->
                 <nav id="navbar" class="clippable">
                     <a href="index.html" target="_self"><p>Back to Cover Page</p></a>
                     <a href="portfolio.html" target="_self"><p>Portfolio</p></a>

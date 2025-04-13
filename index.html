@@ -19,11 +19,11 @@
         <title>Ryan Smaller - IT B.S.</title>
     </head>
     <body>
-            <div id="body-footer-div">
+            <div id="body-footer-div"> <!-- The outer container which currently contains the entire body; this element is not currently -->
                 <header>
                     <h1>Ryan Smaller - IT B.S.</h1>
                 </header>
-                <div id="body-div">
+                <div id="body-div"> <!-- Everything minus the header and footer; those are excluded to prevent them from being flexed in unusual fashion. -->
                     <div id="my-story" class="clippable">
                         <h4>My Story</h4>
                         <p> My journey as an IT student started when I was roughly 8 years old. I had an ancient Toshiba laptop running <span class="italic">Windows Vista SP1</span>,
@@ -52,9 +52,9 @@
                             these applications can be found in my <a class="link" target="_self" href="portfolio.html">Portfolio</a>.
                         </p>
                     </div>
-                    <div id="greater-portrait-photo">
+                    <div id="greater-portrait-photo"> <!-- The container for the portrait photo, navbar, and about me sections. -->
                         <div id="portrait-photo">
-                            <img height="100%" src="resources/images/main/portrait-photo.jpg" alt="Portrait Photo">
+                            <img src="resources/images/main/portrait-photo.jpg" alt="Portrait Photo">
                         </div>
                         <div id="about-nav">
                             <div id="about-me" class="clippable">
@@ -78,7 +78,8 @@
                     </div>
                     <div id="collage" class="clippable">
                         <h4 class="white">Collage</h4>
-                        <img src="resources/images/collage/collage1.jpg" width="600" alt="Screenshot of Graphical Subnetter"> <!-- Unspecified height is intentional; collage will dynamically resize with viewport. -->
+                        <!-- Unspecified height is intentional; collage images will dynamically resize with viewport while maintaining the correct aspect ratio. -->
+                        <img src="resources/images/collage/collage1.jpg" width="600" alt="Screenshot of Graphical Subnetter"> 
                         <img src="resources/images/collage/collage2.jpg" width="300" alt="One of My Packet Tracer Projects">
                         <img src="resources/images/collage/collage3.jpg" width="300" alt="Python Version Control Script I Used Before Git">
                         <img src="resources/images/collage/collage4.jpg" width="310" alt="My Current Linux Desktop Configuration">

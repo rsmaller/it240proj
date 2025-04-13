@@ -5,7 +5,7 @@
     Author:     Ryan Smaller
     Date:       4/13/25
 */
-/* Header Element */
+/* Header */
 header {
     font-size: 0.7em;
     text-align: center;
@@ -28,23 +28,6 @@ header {
     margin: 0.2em;
 }
 
-div#left-top-div div { /* Flex the ethical background and photo/video container next to each other. */
-    flex: 1;
-    border: 0;
-}
-
-div#left-main-div div, div#right-main-div div {
-    border: 0.2em solid darkblue;
-    margin: 0.1em;
-    height: 96.3%;
-    display: flex;
-    background-color: azure;
-}
-
-div#left-main-div div div { /* Ensure paragraph elements are displayed in blocking form, not in flex. */
-    display: block;
-}
-
 #right-main-div { /* Styling for the large right side container. */
     border: 0.2em solid darkblue;
     width: 50%;
@@ -52,6 +35,23 @@ div#left-main-div div div { /* Ensure paragraph elements are displayed in blocki
     display: flex;
     flex-direction: column;
     margin: 0.2em;
+}
+
+div#left-top-div div { /* Flex the ethical background and photo/video container next to each other. */
+    flex: 1;
+    border: 0;
+}
+
+div#left-main-div div, div#right-main-div div { /* Set the bordering, heights, flexing, and margins for the majority of content on the page. */
+    border: 0.2em solid darkblue;
+    margin: 0.1em;
+    height: 96.3%;
+    display: flex;
+    background-color: azure;
+}
+
+div#left-main-div div div { /* Ensure paragraph elements on the page are displayed in blocking form and not flexed. */
+    display: block;
 }
 
 /* Generic Styling */
@@ -74,14 +74,13 @@ ol li {
     height: 100%;
 }
 
-/* div div#portrait { Portrait selector. For later use. } */
-
-div div#portrait iframe {
+div div#video-embed iframe {
     width: 100%;
     max-height: 90%;
+    border: 0;
 }
 
-div div #portrait {
+div div#video-embed {
     text-align: center;
 }
 
@@ -91,7 +90,7 @@ div div div#beliefs { /* Ensure beliefs div displays p elements in block style a
     padding: 0.2em;
 }
 
-div#beliefs p, div#acm-code p, div#sysadmin-book p, div#ethical-bg p { /* Ensure beliefs div displays p elements in block style. */
+div#beliefs p, div#acm-code p, div#sysadmin-book p, div#ethical-bg p { /* Prevent unnecessary whitespace above p elements. */
     margin-top: 0.3em;
 }
 
