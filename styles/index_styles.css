@@ -16,8 +16,17 @@ header, footer {
     background-color: azure;
 }
 
-header h1, footer h1 {
+header h1 {
     line-height: 3vh;
+}
+
+footer h1 {
+    line-height: 3vh;
+    height: 100%;
+    position: relative;
+    top: 25%;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 footer {

@@ -6,29 +6,62 @@
     Date:       4/13/25
 */
 /* This stylesheet styles all <a> elements in a navbar as well as any items with the link class to be responsive clickable buttons. */
-nav a:link, .link:link {
-    color: blue;
-}
 
-nav a:hover, .link:hover, nav a:visited:hover, .link:visited:hover{
+/* Link Pseudo-Classes */
+.link:hover, .link:visited:hover {
     color: skyblue;
 }
 
-nav a:active, .link:active {
+a img:hover { /* When hovering over an image that works as a link, make it "lighter". */
+    opacity: 0.7;
+}
+
+.link:active {
     color: blue;
     position: relative;
     left: 1px;
     top: 1px;
 }
 
-nav a { /* Don't underline navbar links. */
-    text-decoration: none;
-}
-
-nav a:visited, .link:visited {
+.link:visited, .link:visited:active {
     color: darkblue;
 }
 
-a img:hover { /* When hovering over an image that works as a link, make it "lighter". */
-    opacity: 0.7;
+/* Navigation Pseudo-Classes */
+#navbar p:hover {
+    background-color: rgb(199, 221, 255);
+    color: black;
+    font-weight: bold;
+}
+
+#navbar p:active {
+    color:white;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#navbar a:visited {
+    color: darkblue;
+}
+
+/* Footer Navigation */
+#footer-nav:hover {
+    background-color: rgb(199, 221, 255);
+}
+
+#footer-nav:hover h1 {
+    color: black;
+    font-weight: bold;
+}
+
+#footer-nav h1:active {
+    color:white;
+    left: 0.1%;
+    top: 25.1%;
+}
+
+/* Regular Selectors */
+#navbar a { /* Don't underline navbar links. */
+    text-decoration: none;
 }
