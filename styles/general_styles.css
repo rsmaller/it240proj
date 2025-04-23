@@ -69,6 +69,16 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
     list-style-type: none;
 }
 
+.drop-cap::first-letter {
+    /* font-weight: bold; */
+    font-size: 2.6em;
+    padding-right: 0.05em;
+    float: left;
+    line-height: 0.9em;
+    text-shadow: 1em;
+    
+}
+
 /* Overflow Handling */
 #navbar p, .clippable { /* If the text overflows in the navbar elements, do not try to show the overflowed text to preserve the shape of the button. Do the same for the clippable class. */
     overflow: hidden;
@@ -76,8 +86,9 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
 
 .scrollable { /* Add scrollbar to container for overflowed content */
     overflow: scroll;
+    scrollbar-color: gray transparent; /* I cited changing this scrollbar property from https://developer.chrome.com/docs/css-ui/scrollbar-styling#anatomy_of_a_scrollbar. */
+    scrollbar-width: thin; /* Similarly, I found this property at https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scrollbars_styling. */
 }
-
 /* General Navbar Styling */
 #navbar {
     background-color: lightblue;

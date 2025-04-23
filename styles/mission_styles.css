@@ -20,7 +20,7 @@ header {
 }
 
 #left-main-div{ /* Style the left side outer container. */
-    border: 0.3em solid darkblue;
+    border: 0.2em solid darkblue;
     width: 90%;
     height: 89vh;
     display: flex;
@@ -45,7 +45,8 @@ div#left-top-div div { /* Flex the ethical background and photo/video container 
 div#left-main-div div, div#right-main-div div { /* Set the bordering, heights, flexing, and margins for the majority of content on the page. */
     border: 0.2em solid darkblue;
     margin: 0.1em;
-    height: 96.3%;
+    max-height: 96.3%;
+    height: 43vh;
     display: flex;
     background-color: azure;
 }
@@ -91,7 +92,8 @@ div div div#beliefs { /* Ensure beliefs div displays p elements in block style a
 }
 
 div#beliefs p, div#acm-code p, div#sysadmin-book p, div#ethical-bg p { /* Prevent unnecessary whitespace above p elements. */
-    margin-top: 0.3em;
+    margin-top: 0.2em;
+    margin-bottom: 0.8em;
 }
 
 
