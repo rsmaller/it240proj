@@ -103,13 +103,13 @@ div div div {
     padding: 0.2em;
 }
 
-#navbar a {
+#navbar p {
     border: 0.2em solid darkblue;
     margin: 0.2vh;
-    height: 9.7vh;
+    height: calc(((42.5vh - 1.6em - 1vh) / 4));
     min-height: 30px; /* ensures when window is resized that borders do not overlap the text */
     width: 30.8vw;
     text-align: center;
-    line-height: 7vh; /* centers text vertically */
+    line-height: 9vh; /* centers text vertically */
     background-color: azure;
 }

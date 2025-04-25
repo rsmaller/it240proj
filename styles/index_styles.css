@@ -116,7 +116,8 @@ footer {
 #navbar p {
     border: 0.2em solid darkblue;
     margin: 0.2vh;
-    height: 12.4vh;
+    /* height: 12.4vh; */
+    height: calc(((40vh - 1.2em - 0.8vh) / 3));
     min-height: 30px;
     max-width: 98%;
     text-align: center;
