@@ -27,6 +27,16 @@ a img:hover { /* When hovering over an image that works as a link, make it "ligh
     color: darkblue;
 }
 
+.button-link p:hover { /* For links where the entire text box is meant to serve as a button to click on, the button-link class is used to change the background color. */
+    background-color: rgb(199, 221, 255);
+    color: black;
+    font-weight: bold;
+}
+
+.button-link p:active {
+    color: white;
+}
+
 /* Navigation Pseudo-Classes */
 #navbar p:hover {
     background-color: rgb(199, 221, 255);
