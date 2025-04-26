@@ -70,7 +70,7 @@ footer {
     border: 0.2em solid darkblue;
     margin: 0.2vh;
     padding: 0;
-    background: url("/resources/images/main/portrait-background.jpg");
+    background: url("resources/images/main/portrait-background.jpg");
     background-repeat: repeat;
     /* background-color: azure; */
 }
@@ -86,7 +86,7 @@ footer {
     margin: 0.2vh;
     text-align: center;
     /* background-color: azure; */
-    background: url("/resources/images/main/portrait-background2.jpg");
+    background: url("resources/images/main/portrait-background2.jpg");
     background-repeat: repeat;
 }
 
