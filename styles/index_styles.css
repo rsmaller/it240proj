@@ -105,7 +105,7 @@ footer {
 }
 
 /* Styling Instagram Embed */
-.instagram-media { /* This selector and margin property are sourced from https://cavesocial.com/embed-instagram-photo-website-blog for centering Instagram embeds. */
+.instagram-media { /* This selector and margin property are sourced from https://cavesocial.com/embed-instagram-photo-website-blog specifically for centering Instagram embeds. */
     margin: auto !important;
 }
 
