@@ -80,7 +80,7 @@ footer {
 }
 
 #collage {
-    width: 32%;
+    width: 32vw;
     height: 98.6%;
     border: 0.2em solid darkblue;
     margin: 0.2vh;
@@ -102,6 +102,11 @@ footer {
     border: 0.2em solid darkblue;
     margin: 0.2vh;
     background-color: azure;
+}
+
+/* Styling Instagram Embed */
+.instagram-media { /* This selector and margin property are sourced from https://cavesocial.com/embed-instagram-photo-website-blog for centering Instagram embeds. */
+    margin: auto !important;
 }
 
 /* Navigation Menu */

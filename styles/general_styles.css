@@ -75,8 +75,7 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
     padding-right: 0.05em;
     float: left;
     line-height: 0.9em;
-    text-shadow: 1em;
-    
+    text-shadow: 0.05em 0.05em 0.05em black;
 }
 
 /* Overflow Handling */

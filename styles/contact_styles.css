@@ -12,6 +12,7 @@ header {
     border: 0.3em solid darkblue;
     margin: 0.2vh;
     background-color: azure;
+    width: calc(100%-0.2vh);
 }
 
 /* Organizational Containers */
@@ -20,13 +21,15 @@ header {
     flex: 1;
     height: 91vh;
     margin: 0.2vh;
+    width: calc(100%-0.2vh);
     flex-direction: row;
 }
 
 #other-accounts { /* The outside container for the accounts table. */
     border: 0.2em solid darkblue;
     margin: 0.2em;
-    width: 49.4vw;
+    margin-left: 0.4em !important;
+    width: calc(100% - 1em);
     height: 50vh;
     background-color: azure;
 }
@@ -42,7 +45,7 @@ header {
     margin: 0.2em;
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
     padding-right: 0.2em;
-    width: 48vw;
+    width: calc(100% - 0.8em);
     background-color: azure;
     max-height: 44vh; /* These heights are the default for information blocks when the telephone and messaging divs are not assigned heights from their ids. */
     height: 44vh;
@@ -94,6 +97,7 @@ td, th {
     text-align: center;
     border: 0.2em solid darkblue;
     margin: 0.2vh;
+    margin-left: 0.4em !important;
 }
 
 #navbar p {
@@ -108,13 +112,14 @@ td, th {
 
 /* Availability */
 #availability-container {
-    width: 21.6vw;
+    width: 21.5vw;
     height: 38vh;
     text-align: left;
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
     padding-right: 0.2em;
     border: 0.2em solid darkblue;
     margin: 0.2vh;
+    margin-right: 0.25em !important;
     flex-direction: column;
     background-color: azure;
 }

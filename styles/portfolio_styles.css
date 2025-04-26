@@ -11,6 +11,7 @@ header {
     text-align: center;
     border: 0.3em solid darkblue;
     margin: 0.2em;
+    width: calc(100% - 1em);
     background-color: azure;
 }
 
@@ -20,20 +21,21 @@ div div, nav {
     margin: 0.2em;
 }
 
-div div div {
+/* div div div {
     width: 100%;
-}
+} */
 
 /* Organizational Containers */
 #outer-div {
+    margin-left: 0.2vh;
     display: flex;
-    width: 100%;
+    width: calc(100% - 1em);
 }
 
 .vertical-div {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: calc(33.1vw - 1em);
     height: 90vh;
 }
 
@@ -42,7 +44,8 @@ div div div {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 31.4vw;
+    width: 35vw;
+    max-width: calc(100% - 1.2em);
     padding: 0.2em;
     background-color: rgb(212, 229, 255);
     overflow: hidden;
@@ -60,7 +63,7 @@ div div div {
     padding: 0.2em;
     min-height: 2em;
     max-height: 2em;
-    width: 30.7vw;
+    width: calc(100%-0.7em);
     text-align: center;
     line-height: 1em;
     background-color: azure;
@@ -69,7 +72,7 @@ div div div {
 
 .portfolio-image-container {
     height: 70%;
-    width: 30.5vw;
+    width: calc(100%-0.7em);
     background-color: azure;
 }
 
@@ -99,7 +102,7 @@ div div div {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 31.4vw;
+    max-width: calc(33vw - 1em);
     padding: 0.2em;
 }
 
@@ -108,7 +111,7 @@ div div div {
     margin: 0.2vh;
     height: calc(((42.5vh - 1.6em - 1vh) / 4));
     min-height: 30px; /* ensures when window is resized that borders do not overlap the text */
-    width: 30.8vw;
+    max-width: calc(100% - 0.6em);
     text-align: center;
     line-height: 9vh; /* centers text vertically */
     background-color: azure;

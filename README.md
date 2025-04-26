@@ -2,7 +2,7 @@
 
 This section contains any citations, primarily for images, that are not included as in-line comments in HTML or CSS code.
 
-"main-bg.jpg":
+"main-bg.jpg" (Edited):
 	https://u7.uidownload.com/vector/108/227/vector-blue-seamless-polygon-pattern-background-vector-eps-ai.jpg
 
 "portrait-background-orig.jpg" (The other portrait backgrounds are edited from this one):
