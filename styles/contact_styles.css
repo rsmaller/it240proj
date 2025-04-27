@@ -28,8 +28,8 @@ header {
 #other-accounts { /* The outside container for the accounts table. */
     border: 0.2em solid darkblue;
     margin: 0.2em;
-    margin-left: 0.4em !important;
-    width: calc(100% - 1em);
+    margin-left: 0.2em !important;
+    width: calc(27vw + 21.5vw + 1.2em);
     height: 50vh;
     background-color: azure;
 }
@@ -39,16 +39,25 @@ header {
     flex-direction: row;
 }
 
+#telephone-messaging-vertical {
+    min-width: 0;
+}
+
 /* Individual Text Blocks */
 .text-block { /* For the verbal communication and messaging text blocks on-screen. */
     border: 0.2em solid darkblue;
     margin: 0.2em;
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
     padding-right: 0.2em;
-    width: calc(100% - 0.8em);
+    /* width: calc(100% - 0.8em); */
     background-color: azure;
     max-height: 44vh; /* These heights are the default for information blocks when the telephone and messaging divs are not assigned heights from their ids. */
     height: 44vh;
+}
+
+.text-block p {
+    margin-top: 0.4em;
+    margin-bottom: 0.8em;
 }
 
 #telephone {
@@ -97,7 +106,7 @@ td, th {
     text-align: center;
     border: 0.2em solid darkblue;
     margin: 0.2vh;
-    margin-left: 0.4em !important;
+    margin-left: 0.2em !important;
 }
 
 #navbar p {
@@ -112,7 +121,7 @@ td, th {
 
 /* Availability */
 #availability-container {
-    width: 21.5vw;
+    width: calc(21.5vw + 0.2em);
     height: 38vh;
     text-align: left;
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
