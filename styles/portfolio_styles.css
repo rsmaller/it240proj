@@ -62,7 +62,7 @@ div div, nav {
 .portfolio-unit p {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.05em;
+    margin: 0.06em 0.07em;
     padding: 0.2em;
     min-height: 2em;
     max-height: 2em;
@@ -74,7 +74,7 @@ div div, nav {
 }
 
 .portfolio-image-container {
-    height: 70%;
+    height: 69.5%;
     width: calc(100%-0.7em);
     background-color: azure;
 }
