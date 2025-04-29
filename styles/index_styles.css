@@ -9,8 +9,8 @@
 header, footer {
     font-size: 0.7em;
     text-align: center;
-    border: 0.3em solid darkblue;
-    border-radius: 7px !important;
+    border: 0.3em solid green;
+    border-radius: 7px;
     margin: 0.2vh;
     height: 6vh;
     min-height: 30px;
