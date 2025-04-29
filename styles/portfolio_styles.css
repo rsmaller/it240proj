@@ -70,7 +70,7 @@ div div, nav {
 }
 
 .portfolio-image-container {
-    height: 69.5%;
+    height: calc(100% - 8em);
     width: calc(100%-0.7em);
     background-color: azure;
 }
