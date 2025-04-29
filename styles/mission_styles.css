@@ -122,7 +122,6 @@ div div div#acm-code, div div div#sysadmin-book { /* Ensure references div alway
     text-align: center;
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    /* min-height: 20px; */
     height: calc((97% - 0.4vh) / 4 - 0.33em);
     margin: 0.2vh;
     font-size: 16px;

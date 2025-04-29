@@ -70,7 +70,6 @@ li.subentry { /* This is for creating a sub-entry below a list element. This ens
 }
 
 .drop-cap::first-letter {
-    /* font-weight: bold; */
     font-size: 2.6em;
     padding-right: 0.05em;
     float: left;

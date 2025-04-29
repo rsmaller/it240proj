@@ -123,7 +123,6 @@ footer {
     border: 0.2em solid darkblue;
     border-radius: 7px;
     margin: 0.2vh;
-    /* height: 12.4vh; */
     height: calc(((40vh - 1.2em - 0.7vh) / 3));
     min-height: 30px;
     max-width: 98%;
