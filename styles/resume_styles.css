@@ -83,7 +83,7 @@ td, th {
     border: 0.3em solid darkblue;
     border-radius: 7px;
     min-height: 20px;
-    height: 6vh;
+    height: calc((23vh - 0.2em) / 4);
     margin: 0.2em;
     line-height: 6vh; /* centers text vertically */
     background-color: azure;

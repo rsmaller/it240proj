@@ -136,7 +136,8 @@ td, th {
     border: 0.2em solid darkblue;
     border-radius: 7px;
     margin: 0.2em;
-    height: 22.2%;
+    /* height: 22.2%; */
+    height: calc((38vh - 2.6em)/4);
     max-width: 98%;
     text-align: center;
     line-height: 8vh; /* Centers text vertically. */
