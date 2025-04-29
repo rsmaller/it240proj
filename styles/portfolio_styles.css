@@ -10,6 +10,7 @@ header {
     font-size: 0.7em;
     text-align: center;
     border: 0.3em solid darkblue;
+    border-radius: 7px;
     margin: 0.2em;
     width: calc(100% - 1em);
     background-color: azure;
@@ -18,6 +19,7 @@ header {
 /* Generic Div Bordering and Margins */
 div div, nav {
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2em;
 }
 
@@ -59,6 +61,7 @@ div div, nav {
 
 .portfolio-unit p {
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.05em;
     padding: 0.2em;
     min-height: 2em;
@@ -108,6 +111,7 @@ div div, nav {
 
 #navbar p {
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     height: calc(((42.5vh - 1.6em - 1vh) / 4));
     min-height: 30px; /* ensures when window is resized that borders do not overlap the text */

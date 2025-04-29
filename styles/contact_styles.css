@@ -10,6 +10,7 @@ header {
     font-size: 0.7em;
     text-align: center;
     border: 0.3em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     background-color: azure;
     width: calc(100%-0.2vh);
@@ -27,6 +28,7 @@ header {
 
 #other-accounts { /* The outside container for the accounts table. */
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2em;
     margin-left: 0.2em !important;
     width: calc(27vw + 21.5vw + 1.2em);
@@ -46,6 +48,7 @@ header {
 /* Individual Text Blocks */
 .text-block { /* For the verbal communication and messaging text blocks on-screen. */
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2em;
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
     padding-right: 0.2em;
@@ -94,6 +97,7 @@ thead {
 
 td, th {
     border: 0.05em solid black;
+    border-radius: 3px;
     padding-left: 0.2em;
     min-height: 30px;
     height: 20%; /* This should be 1 divided by the number of rows used in the table. */
@@ -105,12 +109,14 @@ td, th {
     height: 38vh;
     text-align: center;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     margin-left: 0.2em !important;
 }
 
 #navbar p {
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2em;
     height: 22.2%;
     max-width: 98%;
@@ -127,6 +133,7 @@ td, th {
     padding-left: 0.2em; /* Padding from the right is not necessary due to text wrapping, and vertical padding does not align well with flex. */
     padding-right: 0.2em;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     margin-right: 0.25em !important;
     flex-direction: column;

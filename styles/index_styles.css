@@ -10,6 +10,7 @@ header, footer {
     font-size: 0.7em;
     text-align: center;
     border: 0.3em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     height: 6vh;
     min-height: 30px;
@@ -54,6 +55,7 @@ footer {
     width: 32vw;
     height: 98.6%;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     padding-left: 0.2em;
     padding-right: 0.2em;
@@ -63,6 +65,7 @@ footer {
     height: 49.5%;
     text-align: center; /* This centers the portrait image. */
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     padding: 0;
     background-image: url("../resources/images/main/portrait-background.jpg") !important;
@@ -78,6 +81,7 @@ footer {
     width: 32vw;
     height: 98.6%;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     text-align: center;
     background-image: url("../resources/images/main/portrait-background2.jpg") !important;
@@ -95,6 +99,7 @@ footer {
     padding-left: 0.2em;
     padding-right: 0.2em;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     background-color: azure;
 }
@@ -109,15 +114,17 @@ footer {
     width: 16vw;
     height: 40vh;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     flex: 1;
 }
 
 #navbar p {
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     /* height: 12.4vh; */
-    height: calc(((40vh - 1.2em - 0.8vh) / 3));
+    height: calc(((40vh - 1.2em - 0.7vh) / 3));
     min-height: 30px;
     max-width: 98%;
     text-align: center;

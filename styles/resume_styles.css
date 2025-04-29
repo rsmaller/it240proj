@@ -11,13 +11,13 @@
     flex-direction: row;
     height: 97vh;
     margin: 0.2vh;
-    
 }
 
 #outer-div div {
     display: flex;
     flex-direction: column;
     border: 0.3em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     height: 96vh;
     padding: 0.2em;
@@ -74,12 +74,14 @@ td, th {
     min-height: 29vh;
     text-align: center;
     border: 0.2em solid darkblue;
+    border-radius: 7px;
     margin: 0.2vh;
     flex: 1;
 }
 
 #navbar p {
     border: 0.3em solid darkblue;
+    border-radius: 7px;
     min-height: 20px;
     height: 6vh;
     margin: 0.2em;
