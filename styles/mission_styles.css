@@ -122,9 +122,9 @@ div div div#acm-code, div div div#sysadmin-book { /* Ensure references div alway
     text-align: center;
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    height: calc((97% - 0.4vh) / 4 - 0.33em);
+    height: calc((100% - 1vh - 1.6em) / 4);
     margin: 0.2vh;
     font-size: 16px;
-    line-height: calc(((97% - 0.4vh) / 4 - 0.33em) + 7vh); /* Centers text vertically. */
+    line-height: calc(((100% - 0.4vh) / 4 - 0.33em) + 7vh); /* Centers text vertically. */
     background-color: azure;
 }

@@ -71,7 +71,7 @@ footer {
     background-image: url("../resources/images/main/portrait-background.jpg") !important;
     background-repeat: repeat;
     background-color: #f0ffff;
-    width: 39.5vw;
+    width: calc(100% - 0.4em - 0.4vh);
 }
 
 #portrait-photo img {
