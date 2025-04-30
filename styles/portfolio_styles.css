@@ -55,6 +55,10 @@ div div, nav {
     padding-bottom: 0.2em;
 }
 
+.portfolio-unit p.portfolio-link {
+    margin-bottom: 0.2em;
+}
+
 .portfolio-unit p {
     border: 0.2em solid darkblue;
     border-radius: 7px;
