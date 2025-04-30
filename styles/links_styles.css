@@ -8,12 +8,12 @@
 /* This stylesheet styles all <a> elements in a navbar as well as any items with the link class to be responsive clickable buttons. */
 
 /* Link Pseudo-Classes */
-.link:hover, .link:visited:hover {
-    color: skyblue;
+.link:link {
+    color: blue;
 }
 
-a img:hover { /* When hovering over an image that works as a link, make it "lighter". */
-    opacity: 0.7;
+.link:hover, .link:visited:hover {
+    color: skyblue;
 }
 
 .link:active {
@@ -37,6 +37,10 @@ a img:hover { /* When hovering over an image that works as a link, make it "ligh
 .button-link p:active {
     color: white;
     box-shadow: 0 0 0;
+}
+
+a img:hover { /* When hovering over an image that works as a link, make it "lighter". */
+    opacity: 0.7;
 }
 
 /* Navigation Pseudo-Classes */
