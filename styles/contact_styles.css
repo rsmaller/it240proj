@@ -124,22 +124,25 @@ td, th {
 /* Navigation Menu */
 #navbar {
     width: 27vw;
-    height: 38vh;
     text-align: center;
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.2vh;
-    margin-left: 0.2em !important;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0.1em;
+    padding: 0.1em;
 }
 
-#navbar p {
+#navbar a {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.2em;
-    /* height: 22.2%; */
-    height: calc((38vh - 2.6em)/4);
-    max-width: 98%;
-    text-align: center;
-    line-height: 8vh; /* Centers text vertically. */
+    margin: 0.1em;
+    display: flex;
+    flex: 1 !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
     background-color: azure;
 }

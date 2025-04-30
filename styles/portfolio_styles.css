@@ -41,7 +41,7 @@ div div, nav {
 .portfolio-unit {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    flex: 1;
     width: 35vw;
     max-width: calc(100% - 1.2em);
     padding: 0.2em;
@@ -104,19 +104,21 @@ div div, nav {
 #navbar {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    flex: 1;
     max-width: calc(33vw - 1em);
     padding: 0.2em;
 }
 
-#navbar p {
+#navbar a {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.2vh;
-    height: calc(((42.5vh - 1.6em - 1vh) / 4));
-    min-height: 30px; /* ensures when window is resized that borders do not overlap the text */
+    margin: 0.2em;
+    display: flex;
+    flex: 1 !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
     max-width: calc(100% - 0.6em);
-    text-align: center;
-    line-height: 9vh; /* centers text vertically */
     background-color: azure;
 }

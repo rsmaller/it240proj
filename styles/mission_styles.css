@@ -114,17 +114,23 @@ div div div#acm-code, div div div#sysadmin-book { /* Ensure references div alway
 #navbar {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.2em;
+    margin: 0.1em;
     height: 97%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1em;
 }
 
-#navbar p {
-    text-align: center;
+#navbar a {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    height: calc((100% - 1vh - 1.6em) / 4);
-    margin: 0.2vh;
+    display: flex;
+    flex: 1 !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
+    margin: 0.1em;
     font-size: 16px;
-    line-height: calc(((100% - 0.4vh) / 4 - 0.33em) + 7vh); /* Centers text vertically. */
     background-color: azure;
 }

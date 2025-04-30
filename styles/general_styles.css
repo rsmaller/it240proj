@@ -18,6 +18,7 @@ body {
     background-size: 23vh;
     background-color: skyblue;
     background-repeat: round;
+    height: 100%;
 }
 
 /* Global Styling for Specific Elements */

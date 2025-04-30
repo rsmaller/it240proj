@@ -21,12 +21,7 @@ header h1 {
     line-height: 3vh;
 }
 
-footer h1 {
-    line-height: 3vh;
-}
-
 footer {
-    position: relative;
     z-index: 0; /* Ensure the footer appears above other flexed elements when the viewport overlaps. */
 }
 
@@ -124,17 +119,21 @@ footer {
     border: 0.2em solid darkblue;
     border-radius: 7px;
     margin: 0.2vh;
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    padding: 0.1em;
 }
 
-#navbar p {
+#navbar a {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.2vh;
-    height: calc(((40vh - 1.2em - 0.7vh) / 3));
-    min-height: 30px;
-    max-width: 98%;
-    text-align: center;
-    line-height: 11vh; /* centers text vertically */
+    margin: 0.1em;
+    display: flex;
+    flex: 1 !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 0;
     background-color: azure;
 }
