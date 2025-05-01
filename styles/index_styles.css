@@ -21,8 +21,9 @@ header h1 {
     line-height: 3vh;
 }
 
-footer {
-    z-index: 0; /* Ensure the footer appears above other flexed elements when the viewport overlaps. */
+a #footer-nav h1 {
+    line-height: 3vh;
+    height: 0;
 }
 
 /* Organizational Containers */
@@ -41,7 +42,7 @@ footer {
 #about-nav {
     display: flex;
     margin: 0.2vh;
-    z-index: 1;
+    z-index: 1 !important;
 }
 
 /* Individual Bordered Containers */
@@ -54,6 +55,7 @@ footer {
     margin: 0.2vh;
     padding-left: 0.2em;
     padding-right: 0.2em;
+    z-index: 1 !important;
 }
 
 #portrait-photo {
@@ -90,6 +92,7 @@ footer {
     background-image: url("../resources/images/main/portrait-background2.jpg") !important;
     background-repeat: repeat;
     background-color: azure;
+    z-index: 1 !important;
 }
 
 #collage img { /* Ensure images in the collage dynamically resize with viewport. */
@@ -98,13 +101,13 @@ footer {
 
 #about-me {
     width: 50%;
-    height: 40vh;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
+    height: 39.4vh;
+    padding: 0.1em 0.2em;
     border: 0.2em solid darkblue;
     border-radius: 7px;
     margin: 0.2vh;
     background-color: azure;
+    z-index: 1 !important;
 }
 
 /* Styling Instagram Embed */
@@ -115,7 +118,7 @@ footer {
 /* Navigation Menu */
 #navbar {
     width: 16vw;
-    height: 40vh;
+    height: 39.4vh;
     border: 0.2em solid darkblue;
     border-radius: 7px;
     margin: 0.2vh;

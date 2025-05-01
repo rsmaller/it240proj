@@ -84,7 +84,7 @@ a img:hover { /* When hovering over an image that works as a link, make it "ligh
     color: black;
 }
 
-#footer-nav h1:active {
+#footer-nav:active h1{
     color:white !important;
     left: 0.1%;
     top: 25.1%;

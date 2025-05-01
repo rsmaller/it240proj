@@ -18,6 +18,7 @@ header {
 /* Organizational Containers */
 #outer-div {
     display: flex;
+    height: 90%;
 }
 
 #left-main-div{ /* Style the left side outer container. */
