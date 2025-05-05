@@ -13,7 +13,7 @@ header {
     border-radius: 7px;
     margin: 0.2vh;
     background-color: azure;
-    width: calc(100%-0.2vh);
+    width: calc(100% - 0.2vh);
 }
 
 /* Organizational Containers */
@@ -22,7 +22,7 @@ header {
     flex: 1;
     height: 91vh;
     margin: 0.2vh;
-    width: calc(100%-0.2vh);
+    width: calc(100% - 0.2vh);
     flex-direction: row;
 }
 

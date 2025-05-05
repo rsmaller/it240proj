@@ -66,7 +66,7 @@ div div, nav {
     padding: 0.2em;
     min-height: 2em;
     max-height: 2em;
-    width: calc(100%-0.7em);
+    width: calc(100% - 0.7em);
     text-align: center;
     line-height: 1em;
     background-color: azure;
@@ -75,7 +75,7 @@ div div, nav {
 
 .portfolio-image-container {
     height: calc(100% - 8em);
-    width: calc(100%-0.7em);
+    width: calc(100% - 0.7em);
     background-color: azure;
 }
 
