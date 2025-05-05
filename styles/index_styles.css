@@ -38,6 +38,7 @@ a #footer-nav h1 {
     flex: inherit; /* Ensure the div with portrait photo, about me, and navigation are all flexing to their maximum possible size to fill up the screen. */
     margin: 0.2vh;
     min-width: 0;
+    flex: 0.4;
 }
 
 #about-nav {
