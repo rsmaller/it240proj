@@ -1,20 +1,19 @@
 function verifyEmbed() {
-    return !document.createElement('embed').getContext; /* Sourced from https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing/Feature_detection */
+    return navigator.pdfViewerEnabled; /* Sourced from https://developer.mozilla.org/en-US/docs/Web/API/Navigator/plugins. */
 }
 
-function setEmbedStyles() { /* Element selectors sourced from https://stackoverflow.com/questions/36587177/how-can-i-conditionally-change-css-styles-with-js */
-    if (verifyEmbed()) {
-        console.log("<embed> is supported.");
-    } else {
-        console.log("<embed> is not supported.");
-        console.log(document.getElementById("resume-embed"));
+function setEmbedStyles() { /* Element selectors sourced from https://stackoverflow.com/questions/36587177/how-can-i-conditionally-change-css-styles-with-js. */
+    embedCompatibility = verifyEmbed();
+    if (!embedCompatibility) {
         document.getElementById("resume-embed").classList.add("hidden");
         document.getElementById("unsupported-embed-message").classList.remove("hidden");
     }
+    console.log("Resume PDF embed: ", document.getElementById("resume-embed"));
+    console.log("PDF viewing compatible: ", embedCompatibility);
 }
 
 function main() {
     setEmbedStyles();
 }
 
-window.onload = main; /* Sourced from https://stackoverflow.com/questions/8739605/getelementbyid-returns-null */
+window.onload = main; /* Sourced from https://stackoverflow.com/questions/8739605/getelementbyid-returns-null. */
