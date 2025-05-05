@@ -124,6 +124,7 @@ td, th {
 /* Navigation Menu */
 #navbar {
     width: 27vw;
+    height: calc(38vh - 0.2em);
     text-align: center;
     border: 0.2em solid darkblue;
     border-radius: 7px;
