@@ -38,7 +38,7 @@ a #footer-nav h1 {
     flex: inherit; /* Ensure the div with portrait photo, about me, and navigation are all flexing to their maximum possible size to fill up the screen. */
     margin: 0.2vh;
     min-width: 0;
-    flex: 0.4;
+    flex: 0.35;
 }
 
 #about-nav {
@@ -51,7 +51,7 @@ a #footer-nav h1 {
 /* Individual Bordered Containers */
 #my-story {
     background-color: azure;
-    flex: 0.33;
+    flex: 0.325;
     height: 98.6%;
     border: 0.2em solid darkblue;
     border-radius: 7px;
@@ -86,7 +86,7 @@ div#portrait-photo img {
 }
 
 #collage {
-    flex: 0.33;
+    flex: 0.325;
     height: 98.6%;
     border: 0.2em solid darkblue;
     border-radius: 7px;
