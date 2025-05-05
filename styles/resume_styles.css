@@ -37,6 +37,9 @@
 div div#resume-file {
     padding: 0;
     width:60%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 div#certifications {
@@ -93,10 +96,4 @@ td, th {
     align-items: center;
     min-height: 0;
     background-color: azure;
-}
-
-@supports not selector(embed) {
-    embed {
-        display: none;
-    }
 }
