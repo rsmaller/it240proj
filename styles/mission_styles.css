@@ -141,13 +141,3 @@ div div div#acm-code, div div div#sysadmin-book { /* Ensure references div alway
     font-size: 16px;
     background-color: azure;
 }
-
-/* Mobile Media Query */
-/* Cited from https://www.w3schools.com/css/css_rwd_mediaqueries.asp. This will change the maximum size of the outer container on mobile devices. */
-@media only screen and (max-width: 460px) { 
-    #outer-div {
-        max-width: calc(100vw - 0.9rem);
-        flex: 1;
-        margin-right: 0.2em !important;
-    }
-}

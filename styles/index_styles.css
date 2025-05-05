@@ -50,7 +50,6 @@ a #footer-nav h1 {
 /* Individual Bordered Containers */
 #my-story {
     background-color: azure;
-    /* width: 32vw; */
     flex: 0.33;
     height: 98.6%;
     border: 0.2em solid darkblue;
@@ -71,7 +70,6 @@ a #footer-nav h1 {
     background-image: url("../resources/images/main/portrait-background.jpg") !important;
     background-repeat: repeat;
     background-color: #f0ffff;
-    /* width: calc(100% - 0.4em - 0.4vh); */
     flex: 0.33;
     min-width: 0 !important;
 }
@@ -79,8 +77,6 @@ a #footer-nav h1 {
 div#portrait-photo img {
     max-height: 100%;
     max-width: 100%;
-    /* width: auto;
-    height: auto; */
     min-width: 0 !important;
     position: relative;
     top: 50%;
@@ -89,7 +85,6 @@ div#portrait-photo img {
 }
 
 #collage {
-    /* width: 32vw; */
     flex: 0.33;
     height: 98.6%;
     border: 0.2em solid darkblue;
@@ -125,7 +120,6 @@ div#portrait-photo img {
 
 /* Navigation Menu */
 #navbar {
-    /* width: 16vw; */
     flex: 0.45;
     height: 39.4vh;
     border: 0.2em solid darkblue;
@@ -133,7 +127,6 @@ div#portrait-photo img {
     margin: 0.2vh;
     display: flex;
     flex-direction: column;
-    /* flex: 1; */
     padding: 0.1em;
     min-width: 0;
 }

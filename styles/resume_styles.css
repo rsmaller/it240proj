@@ -94,3 +94,9 @@ td, th {
     min-height: 0;
     background-color: azure;
 }
+
+@supports not selector(embed) {
+    embed {
+        display: none;
+    }
+}
