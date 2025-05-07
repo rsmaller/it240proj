@@ -43,9 +43,10 @@ div div, nav {
     flex-direction: column;
     flex: 1;
     width: 35vw;
-    max-width: calc(100% - 1.2em);
-    padding: 0.2em;
+    max-width: calc(100% - 1.35em);
+    padding: 0.3em;
     background-color: rgb(212, 229, 255);
+    min-height: 0;
     overflow: hidden;
 }
 
@@ -59,14 +60,19 @@ div div, nav {
     margin-bottom: 0.2em;
 }
 
+.portfolio-name-header {
+    margin: 0 !important;
+}
+
 .portfolio-unit p {
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    margin: 0.06em 0.07em;
+    margin-top: 0.06em;
+    margin-bottom: 0.06em;
     padding: 0.2em;
     min-height: 2em;
     max-height: 2em;
-    width: calc(100% - 0.7em);
+    width: calc(100% - 0.8em);
     text-align: center;
     line-height: 1em;
     background-color: azure;
@@ -75,8 +81,16 @@ div div, nav {
 
 .portfolio-image-container {
     height: calc(100% - 8em);
-    width: calc(100% - 0.7em);
+    width: calc(100% - 0.8em);
     background-color: azure;
+}
+
+.portfolio-unit a {
+    width: calc(100% + 0.1em) !important;
+}
+
+.portfolio-unit a p {
+    width: calc(100% - 0.9em) !important;
 }
 
 /* Portfolio Content */
