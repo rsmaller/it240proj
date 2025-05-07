@@ -8,11 +8,15 @@
 /* This stylesheet styles all <a> elements in a navbar as well as any items with the link class to be responsive clickable buttons. */
 
 /* Link Pseudo-Classes */
+.link:visited, .link:visited:active { /* Any visited link not being hovered over or being clicked on will appear dark blue. */
+    color: darkblue; /* This coloring overwrites the .link:active selector. */
+}
+
 .link:link, .link:link p { /* Links which have not been visited before will appear blue. */
     color: blue;
 }
 
-.link:active { /* Links which are being clicked on will move down slightly and appear blue. */
+.link:active, .link:hover:active { /* Links which are being clicked on will move down slightly and appear blue. */
     color: blue;
     position: relative;
     left: 0.05em;
@@ -21,10 +25,6 @@
 
 .link:hover, .link:visited:hover { /* Any link which is hovered over will appear sky blue. */
     color: skyblue;
-}
-
-.link:visited, .link:visited:active { /* Any visited link not being hovered over or being clicked on will appear dark blue. */
-    color: darkblue; /* This coloring overwrites the .link:active selector. */
 }
 
 .button-link p:hover { /* For links where the entire text box is meant to serve as a button to click on, the button-link class is used to change the background color. */
