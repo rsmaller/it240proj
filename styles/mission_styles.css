@@ -31,7 +31,6 @@ body {
 #left-main-div{ /* Style the left side outer container. */
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    /* width: 50%; */
     min-width: 0;
     flex: 0.6;
     height: calc(89vh - 1em);
@@ -43,7 +42,6 @@ body {
 #right-main-div { /* Styling for the large right side container. */
     border: 0.2em solid darkblue;
     border-radius: 7px;
-    /* width: 50%; */
     flex: 0.4;
     min-width: 0;
     height: calc(89vh - 1em);
